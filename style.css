@@ -1,0 +1,68 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Enlaces */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #007BFF;
+  text-decoration: underline;
+}
+
+/* Botones */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Formularios */
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
